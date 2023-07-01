@@ -1,0 +1,340 @@
+
+         /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+        .icon-bar {
+          right: 0;
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        /* Style the icon bar links */
+        
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+        }
+        /* Style the social media icons with color, if you want */
+        
+        .icon-bar .facebook:hover {
+            background-color: #3B5998;
+        }
+
+        .icon-bar .instagram:hover {
+            background: #d6249f;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+
+        .icon-bar .linkedin:hover {
+            background: #007bb5;
+        }
+
+        .icon-bar .whatsapp:hover {
+            background: #25d366;
+        }
+        
+        .facebook {
+            background: #696969;
+            color: white;
+        }
+        
+        .instagram {
+            background: #696969;
+            color: white;
+        }
+        
+        .linkedin {
+            background: #696969;
+            color: white;
+        }
+        
+        .whatsapp {
+            background: #696969;
+            color: white;
+        }
+        /*Esconde a dive de classe Overlay caso seja identificado que o width Mobile maximo deseja igual ou menor que 980px*/
+        @media only screen and (max-width: 980px) {
+            .hide-mobile {
+                display: none;
+            }
+        }
+
+        section{
+          padding-top: 150px;
+          padding-bottom: 50px;
+        }
+
+        .heading-block:after {
+        content: '';
+        display: block;
+        margin-top: 30px;
+        width: 40px;
+        border-top: 2px solid #444;
+      }
+
+        .heading-block-center:after {
+          margin: auto;
+        content: '';
+        display: block;
+        margin-top: 30px;
+        width: 40px;
+        border-top: 2px solid #444;
+      }
+
+    .feature-box.fbox-right {
+        padding: 0 80px 0 0;
+        text-align: right;
+      } 
+
+    .feature-box.fbox-right .fbox-icon {
+      left: auto;
+      right: 0;
+      }
+
+    .feature-box .fbox-icon {
+      display: block;
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      left: 0;
+      }
+
+    .feature-box .fbox-icon a, .feature-box .fbox-icon i, .feature-box .fbox-icon img {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+      }
+
+    .feature-box .fbox-icon i {
+        font-style: normal;
+        font-size: 28px;
+        text-align: center;
+        line-height: 64px;
+      }
+
+    .feature-box .fbox-icon i, .feature-box .fbox-icon img {
+        border-radius: 50%;
+        background-color: #121234;
+      }
+
+    .feature-box {
+        position: relative;
+        padding: 0 0 0 80px;
+      }
+
+    .btn-etg:not(:disabled):not(.disabled) {
+        cursor: pointer;
+      }
+
+    .btn-etg-outline-primary {
+        color: #fff;
+        background-color: #121234;
+        border: 1px solid #fff;
+      }
+
+    .btn-etg-outline-primary:hover {
+        color: #fff;
+        background-color: #121234;
+        border-color: #121234;
+      }
+
+    .btn-etg {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 0.500rem 2.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+
+    .btn-etg2:not(:disabled):not(.disabled) {
+        cursor: pointer;
+      }
+
+    .btn-etg2-outline-primary {
+        color: #121234;
+        background-color: #fff;
+        border: 1px solid #121234;
+      }
+
+    .btn-etg2-outline-primary:hover {
+        color: #fff;
+        background-color: #121234;
+        border-color: #121234;
+      }
+
+    .btn-etg2 {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 0.500rem 2.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+
+    .nav-hover {
+        color: #ffffff;
+        font-weight: bolder;
+      }
+
+    .nav-hover:hover {
+        color: #121234;
+      }
+
+    .top-links:hover {
+        font-weight: bolder;
+      }
+
+    .bottom-links:hover {
+        font-weight: bolder;
+      }
+
+
+    body, h1, h2, h3, h4, h5, p, span {
+        font-family: Montserrat, sans-serif !important;
+        color: #333;
+        font-size: 100%; 
+      }
+
+    img {
+        max-width: 100%;
+      }
+
+    .font-seguros{
+      font-size: 14px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .bloco-seguros{
+      background-color: #007ca5;
+      padding: 20px;
+      border-radius: 0px 30px 0px 30px;
+      box-shadow: 0 0 1em #007ca5;
+    }
+
+    /*.borda-parceiros {
+        box-shadow: 1em 0em 0em #007ca5;
+        padding: 15px;
+        border: 2px solid #eee;
+        border-radius: 30px;
+        max-width: 140px;
+    }*/
+
+    .borda-parceiros {
+        padding: 15px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        /*display: contents;*/
+        overflow: hidden;
+        -webkit-transform: translate3d(0,0,0);
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+        font-size: 30px;
+    }
+
+    .elfsight-app-4ecbeb20-9c3a-4c19-b2fa-5b526c73cfc3.whats-box .Window__Component-sc-17wvysh-0 > .Window__WindowComponent-sc-17wvysh-1 div:last-child a {
+        display: none !important;
+    }
+
+  .error{
+    color: red;
+  }
+
+
+        .w3-animate-lefte {
+    position: relative;
+    animation: animateleft 3.4s;
+}
+        .w3-animate-righte {
+    position: relative;
+    animation: animateright 3.4s;
+}
+        .w3-animate-bottome {
+    position: relative;
+    animation: animatebottom 3.4s;
+}
+        .w3-animate-tope {
+    position: relative;
+    animation: animatetop 3.4s;
+}
+        .w3-animate-fadinge {
+    animation: fading 3.4s;
+}
+
+    .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 30px;
+        margin: 5px 7px;
+    }
+
+    .font-razoes {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+    }
+
+    .font-razoes-p {
+    line-height: 1.6;
+    margin: 8px 0 0;
+    color: #999;
+    font-size: 14px;
+    font-weight: lighter;
+    }
+
+    .sub-titulo{
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+    font-size: 18px;
+    }
+
+    .carousel-item-mobile {
+      height: 100vh;
+      min-height: 350px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
